@@ -2,8 +2,9 @@ import os
 
 from osgeo import gdal
 
-input_file = '../cut_tif_geojson/Result_GEOJSON/BATKEN_TCI_GEOJSON.tif'
-output_file = 'RESULT_BATKEN_TCI_PX'
+input_file = '../cut_tif_geojson/Result_GEOJSON/NARYN_TCI_GEOJSON.tif'
+# input_file = '../equate_tci_to_band/resized_band.tif'
+output_file = 'RESULT_NARYN_TCI_PX'
 os.makedirs(output_file, exist_ok=True)
 
 # Открываем входной файл с помощью GDAL

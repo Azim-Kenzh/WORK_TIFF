@@ -1,7 +1,7 @@
 from osgeo import gdal
 
-band_file = '../cut_tif_geojson/Result_GEOJSON_BANDS/OSH_BAND_GEOJSON.tif'
-tci_file = 'resized_band.tif'
+band_file = '../cut_tif_geojson/Result_GEOJSON_BANDS/NARYN_BAND_GEOJSON.tif'
+tci_file = '../cut_tif_geojson/Result_GEOJSON/NARYN_TCI_GEOJSON.tif'
 
 # Открываем файлы с помощью GDAL
 band_ds = gdal.Open(band_file)
